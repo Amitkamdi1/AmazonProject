@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="amzPacakge.AmazonProject.TestCase_02_Add_To_Cart" class="method navigator-link" hash-for-method="AddTocart">AddTocart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="amzPacakge.AmazonProject.TestCase_03_Add_To_WishList" class="method navigator-link" hash-for-method="AddTocart">AddTocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="amzPacakge.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails" class="method navigator-link" hash-for-method="EnterCardDetails">EnterCardDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -117,12 +122,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="amzPacakge.AmazonProject.TestCase_04_LoginToAmazon_Search_Product_AddToWishlist_AddToCart_Logout" class="method navigator-link" hash-for-method="AddTocart">AddTocart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="amzPacakge.AmazonProject.TestCase_02_Add_To_Cart" class="method navigator-link" hash-for-method="AddTocart">AddTocart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="amzPacakge.AmazonProject.TestCase_03_Add_To_WishList" class="method navigator-link" hash-for-method="AddTocart">AddTocart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="amzPacakge.AmazonProject.TestCase_04_LoginToAmazon_Search_Product_AddToWishlist_AddToCart_Logout" class="method navigator-link" hash-for-method="AddTocart">AddTocart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -145,7 +150,7 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">amzPacakge.AmazonProject.TestCase_02_Add_To_Cart</span>
+              <span class="class-name">amzPacakge.AmazonProject.TestCase_03_Add_To_WishList</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -154,14 +159,14 @@
                   </a> <!-- AddTocart -->
                   <span class="method-name">AddTocart</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}
-  (Session info: MicrosoftEdge=138.0.3351.55)
+  (Session info: MicrosoftEdge=138.0.3351.83)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [1ffd430090c2220bf1c8903df775470b, findElement {using=id, value=ap_password}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.55, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49189}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\amitk\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49189/devtoo..., se:cdpVersion: 138.0.3351.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ffd430090c2220bf1c8903df775470b
+Command: [05877c4ae13961d03d546e2800340ea9, findElement {value=ap_password, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60446}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\amitk\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60446/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05877c4ae13961d03d546e2800340ea9
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -177,7 +182,7 @@ Session ID: 1ffd430090c2220bf1c8903df775470b
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy9.sendKeys(Unknown Source)
 	at amzPacakge.AmazonProject.AmazonLoginPage.Password(AmazonLoginPage.java:39)
-	at amzPacakge.AmazonProject.TestCase_02_Add_To_Cart.AddTocart(TestCase_02_Add_To_Cart.java:22)
+	at amzPacakge.AmazonProject.TestCase_03_Add_To_WishList.AddTocart(TestCase_03_Add_To_WishList.java:22)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -185,6 +190,45 @@ Session ID: 1ffd430090c2220bf1c8903df775470b
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">amzPacakge.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterCardDetails">
+                  </a> <!-- EnterCardDetails -->
+                  <span class="method-name">EnterCardDetails</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;driver&quot; is null
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at amzPacakge.AmazonProject.AmazonCartPage.FirstlastName(AmazonCartPage.java:55)
+	at amzPacakge.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails.EnterCardDetails(TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amzPacakge.AmazonProject.TestCase_04_LoginToAmazon_Search_Product_AddToWishlist_AddToCart_Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddTocart">
+                  </a> <!-- AddTocart -->
+                  <span class="method-name">AddTocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -203,22 +247,7 @@ Session ID: 1ffd430090c2220bf1c8903df775470b
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">amzPacakge.AmazonProject.TestCase_03_Add_To_WishList</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="AddTocart">
-                  </a> <!-- AddTocart -->
-                  <span class="method-name">AddTocart</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">amzPacakge.AmazonProject.TestCase_04_LoginToAmazon_Search_Product_AddToWishlist_AddToCart_Logout</span>
+              <span class="class-name">amzPacakge.AmazonProject.TestCase_02_Add_To_Cart</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -245,8 +274,8 @@ Session ID: 1ffd430090c2220bf1c8903df775470b
       &lt;class name=&quot;amzPacakge.AmazonProject.Testcase_01_LoginToAmazon_Logout&quot;/&gt;
       &lt;class name=&quot;amzPacakge.AmazonProject.TestCase_03_Add_To_WishList&quot;/&gt;
       &lt;class name=&quot;amzPacakge.AmazonProject.TestCase_02_Add_To_Cart&quot;/&gt;
-      &lt;class name=&quot;amzPacakge.AmazonProject.TestCase_04_LoginToAmazon_Search_Product_AddToWishlist_AddToCart_Logout&quot;/&gt;
       &lt;class name=&quot;amzPacakge.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails&quot;/&gt;
+      &lt;class name=&quot;amzPacakge.AmazonProject.TestCase_04_LoginToAmazon_Search_Product_AddToWishlist_AddToCart_Logout&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -286,23 +315,27 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AddTocart')
 data.setCell(0, 2, 'amzPacakge.AmazonProject.TestCase_04_LoginToAmazon_Search_Product_AddToWishlist_AddToCart_Logout')
-data.setCell(0, 3, 24945);
+data.setCell(0, 3, 25598);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'AddTocart')
-data.setCell(1, 2, 'amzPacakge.AmazonProject.TestCase_03_Add_To_WishList')
-data.setCell(1, 3, 24416);
+data.setCell(1, 1, 'EnterCardDetails')
+data.setCell(1, 2, 'amzPacakge.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails')
+data.setCell(1, 3, 25476);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logginwithValidCredentils')
-data.setCell(2, 2, 'amzPacakge.AmazonProject.Testcase_01_LoginToAmazon_Logout')
-data.setCell(2, 3, 14970);
+data.setCell(2, 1, 'AddTocart')
+data.setCell(2, 2, 'amzPacakge.AmazonProject.TestCase_02_Add_To_Cart')
+data.setCell(2, 3, 23459);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'AddTocart')
-data.setCell(3, 2, 'amzPacakge.AmazonProject.TestCase_02_Add_To_Cart')
-data.setCell(3, 3, 4852);
+data.setCell(3, 1, 'logginwithValidCredentils')
+data.setCell(3, 2, 'amzPacakge.AmazonProject.Testcase_01_LoginToAmazon_Logout')
+data.setCell(3, 3, 13527);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AddTocart')
+data.setCell(4, 2, 'amzPacakge.AmazonProject.TestCase_03_Add_To_WishList')
+data.setCell(4, 3, 5016);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -340,58 +373,75 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logginwithValidCredentils</span>
-                <span class="method-start">3874 ms</span>
+                <span class="method-start">4402 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserQuit</span>
-                <span class="method-start">18850 ms</span>
+                <span class="method-start">17933 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amzPacakge.AmazonProject.TestCase_03_Add_To_WishList</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">BrowserLaunch</span>
-                <span class="method-start">22445 ms</span>
+                <span class="method-start">21592 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">AddTocart</span>
-                <span class="method-start">25490 ms</span>
+                <span class="method-start">24506 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserQuit</span>
-                <span class="method-start">49909 ms</span>
+                <span class="method-start">29542 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amzPacakge.AmazonProject.TestCase_02_Add_To_Cart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">BrowserLaunch</span>
-                <span class="method-start">53859 ms</span>
+                <span class="method-start">33146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddTocart</span>
+                <span class="method-start">36495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserQuit</span>
+                <span class="method-start">59958 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amzPacakge.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserLaunch</span>
+                <span class="method-start">63656 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">AddTocart</span>
-                <span class="method-start">57218 ms</span>
+                <span class="method-name">EnterCardDetails</span>
+                <span class="method-start">66909 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserQuit</span>
-                <span class="method-start">62088 ms</span>
+                <span class="method-start">92387 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">amzPacakge.AmazonProject.TestCase_04_LoginToAmazon_Search_Product_AddToWishlist_AddToCart_Logout</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">BrowserLaunch</span>
-                <span class="method-start">65749 ms</span>
+                <span class="method-start">96166 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AddTocart</span>
-                <span class="method-start">69212 ms</span>
+                <span class="method-start">99519 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">BrowserQuit</span>
-                <span class="method-start">94158 ms</span>
+                <span class="method-start">125118 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

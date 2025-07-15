@@ -3,13 +3,20 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="amzPacakge.AmazonProject.TestCase_02_Add_To_Cart">
+      <class name="amzPacakge.AmazonProject.TestCase_03_Add_To_WishList">
         <methods>
           <include name="BrowserLaunch"/>
           <include name="BrowserQuit"/>
           <include name="AddTocart"/>
         </methods>
-      </class> <!-- amzPacakge.AmazonProject.TestCase_02_Add_To_Cart -->
+      </class> <!-- amzPacakge.AmazonProject.TestCase_03_Add_To_WishList -->
+      <class name="amzPacakge.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails">
+        <methods>
+          <include name="EnterCardDetails"/>
+          <include name="BrowserLaunch"/>
+          <include name="BrowserQuit"/>
+        </methods>
+      </class> <!-- amzPacakge.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
