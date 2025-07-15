@@ -52,7 +52,7 @@ public class AmazonCartPage {
 
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("address-ui-widgets-enterAddressFullName")));
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("address-ui-widgets-enterAddressFullName")));
 		fullNameInput.sendKeys("Abc Test");
 
 	}

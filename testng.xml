@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Amazon Functional Suite">
-  <test name="Amazon Core TestCases" thread-count="1" parallel="classes">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-     <class name="amzPackage.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails"/>
+      <class name="amzPacakge.AmazonProject.Testcase_01_LoginToAmazon_Logout"/>
+      <class name="amzPacakge.AmazonProject.TestCase_03_Add_To_WishList"/>
+      <class name="amzPacakge.AmazonProject.TestCase_02_Add_To_Cart"/>
+      <class name="amzPacakge.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails"/>
+      <class name="amzPacakge.AmazonProject.TestCase_04_LoginToAmazon_Search_Product_AddToWishlist_AddToCart_Logout"/>
     </classes>
-  </test>
-</suite>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

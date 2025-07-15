@@ -74,7 +74,7 @@ public class AmazonSearchResultPage {
 	
 	public void AddTocart2() {
 
-		AddTOCart2.click();
+	AddTOCart2.click();
 
 	}
 

@@ -13,7 +13,7 @@ public class TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAs
 AmazonHomePage Logging = new AmazonHomePage(driver);
 		
 		Logging.HoverOverAccountList(driver);
-		Logging.SingIn();
+	 	Logging.SingIn();
 		
 		AmazonLoginPage Signin = new AmazonLoginPage(driver);
 		Signin.UserName();

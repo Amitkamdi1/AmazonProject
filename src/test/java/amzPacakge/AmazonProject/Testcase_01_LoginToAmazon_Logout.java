@@ -11,7 +11,7 @@ public class Testcase_01_LoginToAmazon_Logout extends BaseClass {
 	
 	public void logginwithValidCredentils() throws InterruptedException {
 		
-		AmazonHomePage Logging = new AmazonHomePage(driver);
+	 	AmazonHomePage Logging = new AmazonHomePage(driver);
 		
 		Logging.HoverOverAccountList(driver);
 		Logging.SingIn();

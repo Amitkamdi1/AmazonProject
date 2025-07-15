@@ -11,7 +11,7 @@ public class TestCase_03_Add_To_WishList extends BaseClass{
 	
 	public void AddTocart() throws InterruptedException {
 
-		AmazonHomePage Logging = new AmazonHomePage(driver);
+ 		AmazonHomePage Logging = new AmazonHomePage(driver);
 
 		Logging.HoverOverAccountList(driver);
 		Logging.SingIn();

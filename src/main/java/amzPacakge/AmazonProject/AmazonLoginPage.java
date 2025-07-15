@@ -26,7 +26,7 @@ public class AmazonLoginPage {
 
 	public void UserName() {
 
-		UN.sendKeys("7498794932");
+	UN.sendKeys("7498794932");
 
 	}
 

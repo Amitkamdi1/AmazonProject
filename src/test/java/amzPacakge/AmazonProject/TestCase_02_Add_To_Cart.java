@@ -13,7 +13,7 @@ public class TestCase_02_Add_To_Cart extends BaseClass{
 		
 AmazonHomePage Logging = new AmazonHomePage(driver);
 		
-		Logging.HoverOverAccountList(driver);
+	 	Logging.HoverOverAccountList(driver);
 		Logging.SingIn();
 		
 		AmazonLoginPage Signin = new AmazonLoginPage(driver);
