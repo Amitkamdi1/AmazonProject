@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Integration Suit]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Integartion testcase(failed)" verbose="0">
+    <classes>
+      <class name="amzPacakge.AmazonProject.Testcase_01_LoginToAmazon_Logout">
+        <methods>
+          <include name="logginwithValidCredentils"/>
+          <include name="BrowserLaunch"/>
+          <include name="BrowserQuit"/>
+        </methods>
+      </class> <!-- amzPacakge.AmazonProject.Testcase_01_LoginToAmazon_Logout -->
+    </classes>
+  </test> <!-- Integartion testcase(failed) -->
+</suite> <!-- Failed suite [Integration Suit] -->

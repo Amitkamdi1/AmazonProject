@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon Functional Suite">
+  <test name="Amazon Core TestCases" thread-count="1" parallel="classes">
+    <classes>
+     <class name="amzPackage.AmazonProject.TestCase_05_Loggin_SearchProduct_WishList_AddToCart_SelectPaymentAsCreditCard_EnterCardDetails"/>
+    </classes>
+  </test>
+</suite>
